@@ -1,0 +1,73 @@
+[{
+        "_id": "M101",
+        "name": "Introduction to Rocket Propulsion",
+        "description": "Basic principles of rocket propulsion and rocket engines.",
+        "course": "RS101"
+    },
+    {
+        "_id": "M102",
+        "name": "Fuel and Combustion",
+        "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+        "course": "RS101"
+    },
+    {
+        "_id": "M103",
+        "name": "Nozzle Design",
+        "description": "Principles of rocket nozzle design and performance optimization.",
+        "course": "RS101"
+    },
+    {
+        "_id": "M201",
+        "name": "Fundamentals of Aerodynamics",
+        "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+        "course": "RS102"
+    },
+    {
+        "_id": "M202",
+        "name": "Subsonic and Supersonic Flow",
+        "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+        "course": "RS102"
+    },
+    {
+        "_id": "M203",
+        "name": "Aerodynamic Heating",
+        "description": "Study of aerodynamic heating and thermal protection systems.",
+        "course": "RS102"
+    },
+    {
+        "_id": "M301",
+        "name": "Spacecraft Structural Design",
+        "description": "Fundamentals of designing spacecraft structures and materials selection.",
+        "course": "RS103"
+    },
+    {
+        "_id": "M302",
+        "name": "Orbital Mechanics",
+        "description": "Understanding orbital dynamics and mission planning.",
+        "course": "RS103"
+    },
+    {
+        "_id": "M303",
+        "name": "Spacecraft Systems Engineering",
+        "description": "Overview of spacecraft systems and subsystems engineering.",
+        "course": "RS103"
+    },
+    {
+        "_id": "C401",
+        "name": "Inorganic Structural Chemistry",
+        "description": "Fundamentals of designing inorganic molecular structures and materials selection for chemical processes.",
+        "course": "CH102"
+    },
+    {
+        "_id": "C402",
+        "name": "Inorganic Reaction Dynamics",
+        "description": "Understanding the dynamics of inorganic reactions and the principles of chemical reaction engineering.",
+        "course": "CH102"
+    },
+    {
+        "_id": "C403",
+        "name": "Inorganic Chemical Systems",
+        "description": "Overview of inorganic chemical systems and the engineering of inorganic chemical processes and subsystems.",
+        "course": "CH102"
+    }
+]
