@@ -3,7 +3,10 @@ import express from 'express'
 import session from "express-session";
 import mongoose from "mongoose";
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING;
-mongoose.connect(CONNECTION_STRING, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(CONNECTION_STRING)
+  .then(() => console.log('Connected to MongoDB'))
+  .catch(err => console.error('Could not connect to MongoDB', err));
+
 import Hello from "./hello.js"
 import Lab5 from './Lab5.js'
 import CourseRoutes from "./courses/routes.js";
