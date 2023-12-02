@@ -2,7 +2,7 @@ import "dotenv/config";
 import express from 'express'
 import session from "express-session";
 import mongoose from "mongoose";
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas'
+const CONNECTION_STRING = process.env.DB_CONNECTION_STRING 
 mongoose.connect(CONNECTION_STRING);
 import Hello from "./hello.js"
 import Lab5 from './Lab5.js'
